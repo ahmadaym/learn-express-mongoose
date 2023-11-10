@@ -11,14 +11,26 @@ Run the file "basics/server1.js" and answer the following questions:
 Open the file "basics/server2.js" and answer the following:
 
 1. Run the server and list the order in which app.use and app.get functions are executed.
+   {}
+   {}
+   hello
+
 2. Move app.use in line 20 to above the app.get endpoint. Run the server and list the order of execution.
+   {}
+   hello
+   {}
+   hello
 3. Move all app.use functions above the app.get endpoint. Replace the return in the last app.use with next(). What will be the order of execution?
+   {}
+   hello
+   {}
+   hello
 
 Open the file "basics/server3.js" and answer the following:
 
-1. What are the *params* in the path?
+1. What are the _params_ in the path?
 2. Assume the server is running on localhost:3002. Provide a path which would be handled by the endpoint shown and provide the output.
-3. Construct a URL with inputs for the end point defined in '/user'. 
+3. Construct a URL with inputs for the end point defined in '/user'.
 
 # Mongoose Basics
 
@@ -38,7 +50,7 @@ We will make a library app to query information about books and create new books
 
 1. https://mongoosejs.com/docs/index.html
 2. https://mongoosejs.com/docs/guides.html
-3. https://www.mongodb.com/basics 
+3. https://www.mongodb.com/basics
 4. https://expressjs.com/en/guide/writing-middleware.html
 5. https://expressjs.com/en/guide/using-middleware.html
 6. https://expressjs.com/en/guide/routing.html
